@@ -1,0 +1,8 @@
+* {
+    outline: red 1px solid;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
