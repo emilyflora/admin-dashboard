@@ -1,4 +1,4 @@
-/* need to do: drop-shadows, search bar, cards content alignment */
+/* need to do: drop-shadows, cards content alignment */
 
 :root {
     --white: rgba(255,255,255,255);
@@ -22,19 +22,20 @@ body {
     margin: 0;
 }
 
+h1, h2, h3 {
+    margin: 0 0 1em 0;
+}
+
 h1 {
     font-size: 2em;
-    margin: 0 0 1em 0;
 }
 
 h2 {
     font-size: 1.75em;
-    margin: 0 0 1em 0;
 }
 
 h3 {
     font-size: 1.5em;
-    margin: 0 0 1em 0;
 }
 
 p {
@@ -164,6 +165,8 @@ hr {
     background-color: var(--light-gray);
     height: 1.25em;
     border-radius: 1.25em;
+    min-width: 50px;
+    flex: 1;
 }
 
 .content {
