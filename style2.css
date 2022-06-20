@@ -165,7 +165,7 @@ hr {
 
 .search {
     background-color: var(--light-gray);
-    height: 1.25em;
+    height: 1.75em;
     border-radius: 1.25em;
     min-width: 50px;
     flex: 1;
