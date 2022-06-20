@@ -84,6 +84,7 @@ hr {
     background-color: var(--orange);
     width: 48px;
     height: 48px;
+    min-width: 48px;
     border-radius: 3em;
     color: var(--white);
     display: grid;
@@ -97,6 +98,7 @@ hr {
     width: 70px;
     height: 70px;
     font-size: 2em;
+    min-width: 70px;
 }
 
 .dashboard {
