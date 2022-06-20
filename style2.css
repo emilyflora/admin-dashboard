@@ -1,4 +1,4 @@
-/* need to do: drop-shadows, cards content alignment */
+/* need to do: drop-shadows */
 
 :root {
     --white: rgba(255,255,255,255);
@@ -10,9 +10,9 @@
     --orange: rgba(240,180,41,255);
 }
 
-* {
+/* * {
     outline: red 1px solid;
-}
+} */
 
 html {
     font-family: 'Roboto', sans-serif;
@@ -216,6 +216,16 @@ hr {
 .project-card {
     border-left: .5em solid var(--orange);
     padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
 
 .announcements-section {
