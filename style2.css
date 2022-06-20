@@ -1,4 +1,4 @@
-/* need to do: drop-shadows, search bar, cards content alignment, dashboard alignment */
+/* need to do: drop-shadows, search bar, cards content alignment */
 
 :root {
     --white: rgba(255,255,255,255);
@@ -122,6 +122,10 @@ hr {
     align-items: center;
 }
 
+.dashboard-header h1 {
+    margin: 0;
+}
+
 .header {
     grid-column: 2 / 3;
     background-color: var(--white);
@@ -133,8 +137,12 @@ hr {
 .header-bottom {
     display: flex;
     flex-direction: row;
-    gap: 1em;
+    gap: 3em;
     justify-content: space-between;
+}
+
+.header-top-left {
+    flex-grow: 1;
 }
 
 .header-top-left, 
